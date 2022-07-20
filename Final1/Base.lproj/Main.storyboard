@@ -32,47 +32,59 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calentree" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SL6-sj-IBe">
-                                <rect key="frame" x="43" y="327" width="328" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="s6F-QR-egl">
-                                <rect key="frame" x="87" y="108" width="240" height="211"/>
+                                <rect key="frame" x="84" y="98" width="247" height="221"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vl7-jP-x2k">
-                                <rect key="frame" x="101" y="487" width="212" height="38"/>
+                                <rect key="frame" x="101" y="477" width="212" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Calendar"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Calendar">
+                                    <fontDescription key="titleFontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.94130435422911141" green="0.0" blue="0.052814401347124756" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="Sp6-Gz-bcT" kind="show" id="ejb-DN-bTv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWK-hK-vmZ">
-                                <rect key="frame" x="101" y="559" width="212" height="38"/>
+                                <rect key="frame" x="101" y="601" width="212" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="ToDo"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="To-Do">
+                                    <fontDescription key="titleFontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.94130435420000003" green="0.0" blue="0.052814401349999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="3ow-mc-pc0" kind="show" id="oNi-On-RNw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bS5-dw-OxA">
-                                <rect key="frame" x="101" y="633" width="212" height="38"/>
+                                <rect key="frame" x="101" y="723" width="212" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="About Us"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="About Us">
+                                    <fontDescription key="titleFontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.94130435420000003" green="0.0" blue="0.052814401349999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="qUd-dQ-1qI" kind="show" id="E6Y-YM-zWG"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CalenTree" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SL6-sj-IBe">
+                                <rect key="frame" x="43" y="306" width="328" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="45"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.9490184591274069" green="0.81469447477755108" blue="0.76915772040413721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -82,7 +94,6 @@
         <!--View Controller2-->
         <scene sceneID="OS8-Da-mVV">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rks-b8-dHj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="Sp6-Gz-bcT" customClass="ViewController2" customModule="Final1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6a5-nh-pBz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -92,13 +103,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="jnU-6D-UVD"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rks-b8-dHj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="953" y="78"/>
         </scene>
         <!--View Controller3-->
         <scene sceneID="Bgu-p0-7BH">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tlZ-tm-DID" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="3ow-mc-pc0" customClass="ViewController3" customModule="Final1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yym-fj-8je">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -108,6 +119,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="kyN-PJ-6SF"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tlZ-tm-DID" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="19" y="771"/>
         </scene>
